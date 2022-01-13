@@ -196,6 +196,20 @@ p {
   margin-left: -100px;
 }
 
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin: 0px;
+  background: #484872;
+  text-align: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;
+}
+
 /* mobile device */
 @media (max-width: 850px) {
   .menu-btn {
@@ -228,5 +242,25 @@ p {
   /* Events */
   .explore {
     display: block;
+  }
+
+  /* Tours */
+  .tours .row {
+    display: block;
+  }
+  .tours .row .col {
+    margin: 0 auto;
+  }
+  .tours .row .col h1 {
+    font-size: 5vmin;
+    padding-top: 10px;
+  }
+  .tours .row .col .ctn {
+    margin-bottom: 10px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 0;
   }
 }
